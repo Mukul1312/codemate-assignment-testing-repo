@@ -126,13 +126,16 @@ const BasketModalContent = ({ handleClose }) => {
           <span className="text-[12px]">Auto hedge</span>
         </button>
         <button
-          onClick={() => handleClose()}
+          onClick={}
           className="rounded-none border-[#2C57F5] border-[1px] w-[97px] h-[29px] ms-[63px]"
         >
           <span className="text-[#2C57F5] text-[12px] ">Close Basket</span>
         </button>
         <button className="rounded-none bg-[#2C57F5] w-[97px] h-[29px] text-white ms-[11px] text-[12px] ">
           Place Order
+        </button>
+        <button className="rounded-none bg-[#2C57F5] w-[97px] h-[29px] text-white ms-[11px] text-[12px] ">
+          Add To Card
         </button>
       </div>
     </div>
