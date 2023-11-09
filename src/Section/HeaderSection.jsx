@@ -2,7 +2,7 @@ import React from 'react';
 import StockIndices from '../components/StockIndices';
 
 const HeaderSection = () => {
-  const headerTabs = ["Dashboard", "Option Chain", "Strategy builder", "Positions", "Order book"];
+  const headerTabs = ["Dashboard", "Option Chain", "Strategy builder", "Positions", "Order book", "hi"];
 
   return (
     <div className="header flex relative">
