@@ -19,7 +19,7 @@ function ReactPortal ({ children, wrapperId = "react-portal-wrapper" }) {
     // create and append to body
     if (!element) {
       systemCreated = true;
-      element = createWrapperAndAppendToBody(wrapperId);
+      element = createWrapperAndAppendToody(wrapperId);
     }
     setWrapperElement(element);
 
