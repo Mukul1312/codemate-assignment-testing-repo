@@ -16,7 +16,6 @@ const OptionChainTable = ({ columns, data }) => {
     let styles = "bg-[#E8EFFB] satoshi-font text-[14px] text-center border-b-[1px] py-[10px]"
       if(header.depth === 1){
         styles = 'bg-white satoshi-font text-[14px]'
-        // styles.concat(" ", 'bg-white')
       }
       else if(!header.id.includes("strike")){
         styles = styles.concat(" ", 'border-[#99B8ED]');
@@ -42,7 +41,6 @@ const OptionChainTable = ({ columns, data }) => {
     return styles
   }
 
-  // console.log(table.getRowModel().rows.map(row => row.getVisibleCells().map(cell => cell)))
 
   return <div style={{ height: '515px', overflowY: 'auto', scrollbarWidth: 'thin',scrollbarColor: 'transparent transparent'}}>
     <table className="w-full">
