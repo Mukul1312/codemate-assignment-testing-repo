@@ -15,10 +15,6 @@ const HeaderSection = () => {
         <StockIndices indices={"BANKNIFTY"} points={"39,156.1"} change={"0.7%"} />
         <StockIndices indices={"INDIA VIX"} points={"12.12"} change={"-10.9%"} />
       </div>
-      <div className='profile__dropdown absolute end-[53px] top-[15px]'>
-        <span className='pr-[8px]'>Profile</span>
-        <img className='inline' src="./Forward.png" />
-      </div>
     </div>
   )
 }
